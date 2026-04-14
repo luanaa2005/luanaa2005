@@ -32,24 +32,7 @@ class Luana:
         self.learning = ["Sistemas embarcados", "Arquitetura de software"]
 ```
 
----
 
-## 🚀 Projeto destaque
-
-### 🛸 Drone Seguidor de Linha
-
-<p align="center">
-  <img src="https://cdn.dribbble.com/userupload/22003117/file/original-c5cfeeebba812d25360fb52628175039.gif"width="200"/>
-</p>>
-
-Sistema autônomo utilizando:
-
-* ROS
-* PX4 + Pixhawk
-* OpenCV
-* MAVLink
-
----
 
 ## 🛠️ Tech Stack
 
