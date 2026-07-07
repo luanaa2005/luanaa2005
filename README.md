@@ -14,10 +14,8 @@
 $ whoami
 ```
 
-Estudante de Engenharia de Software na UnB/FGA, atuando em três frentes ao mesmo tempo:
+Estudante de Engenharia de Software na UnB, atuando em três frentes:
 robótica aérea autônoma, pesquisa em sistemas espaciais e engenharia de dados.
-Meta de longo prazo: software para sistemas aeroespaciais → pós em Sistemas
-Embarcados na UFPE → Embraer.
 
 <br>
 
@@ -28,7 +26,7 @@ $ ls -la current_roles/
 | | | |
 |---|---|---|
 | 🚁 | **EDRA** | Equipe de Robótica Aérea da UnB — controle e software embarcado |
-| 🛰️ | **LaSE** | Laboratório de Sistemas Espaciais (parceria AEB) — pesquisa aeroespacial |
+| 🛰️ | **LaSE** | Laboratório de Sistemas Espaciais — pesquisa aeroespacial |
 | 📊 | **GovHub-br** | Engenharia de dados para transparência governamental |
 
 <br>
@@ -69,7 +67,7 @@ não necessariamente de software:
 </details>
 
 <details>
-<summary>🌕 <b>exoterra/</b> — visualização 3D de ambientes lunares (PIBIC, a partir de ago/2026)</summary>
+<summary>🌕 <b>exoterra/</b> — visualização 3D de ambientes lunares </summary>
 <br>
 
 Pesquisa em visualização de terrenos lunares a partir de dados reais **LRO/NASA**,
@@ -89,9 +87,8 @@ parceria LaSE × COSMOS:
 
 DAGs de ingestão de dados governamentais no **Apache Airflow**:
 
-- Ingestão de dados do **SICONV** (download, parsing de CSV sem extração completa do zip)
+- Ingestão de dados
 - Validação explícita de schema por tabela
-- Rastreamento de histórico de filiação partidária de deputados, para cruzamento com emendas orçamentárias
 - Debugging de casos reais: BOM em CSVs do governo, `BadZipFile`, schemas divergentes
 
 `stack:` Apache Airflow · PostgreSQL · Python
@@ -127,7 +124,6 @@ construindo:
   </picture>
 </p>
 
-<sub>⚙️ gerado automaticamente todo dia via GitHub Actions a partir do grid de contribuições real — veja `.github/workflows/snake.yml`</sub>
 
 <br>
 
