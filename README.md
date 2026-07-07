@@ -106,9 +106,6 @@ estudando:
   - ICP (Iterative Closest Point) para odometria com LiDAR
   - Arquitetura de software para sistemas aeroespaciais
   - Godot Engine + GDExtension para visualização científica
-construindo:
-  - PIBIC ExoTerra (LaSE × COSMOS)
-  - Artigo IAC 2026 (bancada de microempuxo)
 ```
 
 <br>
