@@ -84,12 +84,6 @@ Tecnóloga em Análise e Desenvolvimento de Sistemas e estudante de **Engenharia
 
 </div>
 
-<div align="center">
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=luanaa2005&theme=tokyo-night&bg_color=080812&color=FFD700&line=FFD700&point=4FC3F7&area=true&area_color=FFD700&hide_border=false&border_color=FFD700)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
-
 ---
 
 ## 🚀 WARP TRAIL
@@ -117,9 +111,8 @@ Tecnóloga em Análise e Desenvolvimento de Sistemas e estudante de **Engenharia
 
 <div align="center">
 
-<!-- ⚠️ Confira o nome exato do repo LaSE no seu GitHub -->
 [![govhub](https://github-readme-stats.vercel.app/api/pin/?username=GovHub-br&repo=data-application-mir&theme=dark&title_color=FFD700&icon_color=FFD700&text_color=87CEEB&bg_color=080812&border_color=FFD700)](https://github.com/GovHub-br/data-application-mir)
-[![lase-thrust](https://github-readme-stats.vercel.app/api/pin/?username=luanaa2005&repo=lase-thrust&theme=dark&title_color=FFD700&icon_color=FFD700&text_color=87CEEB&bg_color=080812&border_color=FFD700)](https://github.com/luanaa2005/lase-thrust)
+[![lase](https://github-readme-stats.vercel.app/api/pin/?username=luanaa2005&repo=Balanca-de-microempuxo-UnB&theme=dark&title_color=FFD700&icon_color=FFD700&text_color=87CEEB&bg_color=080812&border_color=FFD700)](https://github.com/luanaa2005/Balanca-de-microempuxo-UnB)
 
 </div>
 
