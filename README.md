@@ -1,137 +1,175 @@
-<p align="center">
-  <img src="./assets/banner.svg" width="100%" alt="Luana Almeida"/>
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/luana-carvalho-de-almeida-134877234"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
-  <img src="https://img.shields.io/badge/Bras%C3%ADlia-DF%2C%20Brazil-1e3a8a?style=flat-square"/>
-  <img src="https://img.shields.io/badge/status-em%20%C3%B3rbita%20de%20projetos-020617?style=flat-square"/>
-</p>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:080812,50:0d1540,100:1a2060&height=200&section=header&text=MAY%20THE%20CODE%20BE%20WITH%20YOU&fontSize=26&fontColor=FFD700&animation=fadeIn&fontAlignY=45&desc=Luana%20Carvalho%20de%20Almeida&descAlignY=63&descSize=14&descColor=87CEEB"/>
 
-<br>
+![Profile Views](https://komarev.com/ghpvc/?username=luanaa2005&color=gold&style=flat-square&label=TRANSMISSIONS+RECEIVED)
+&nbsp;
+[![GitHub followers](https://img.shields.io/github/followers/luanaa2005?label=Rebel+Alliance&style=flat-square&color=gold&labelColor=0d0d1a)](https://github.com/luanaa2005?tab=followers)
 
-```
-$ whoami
-```
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Orbitron&size=14&duration=2800&pause=900&color=FFD700&center=true&vCenter=true&width=560&lines=⚡+Embedded+Systems+Engineer;🎓+Tecnóloga+em+ADS+%7C+Eng.+de+Software;🗄️+Data+Engineer+%7C+Lab+Livre+%C3%97+Gov;🔬+Space+Systems+Laboratory+%7C+LaSE;🌌+Building+the+fleet+one+commit+at+a+time)](https://git.io/typing-svg)
 
-Estudante de Engenharia de Software na UnB, atuando em três frentes:
-robótica aérea autônoma, pesquisa em sistemas espaciais e engenharia de dados.
-
-<br>
-
-```
-$ ls -la current_roles/
-```
-
-| | | |
-|---|---|---|
-| 🚁 | **EDRA** | Equipe de Robótica Aérea da UnB — controle e software embarcado |
-| 🛰️ | **LaSE** | Laboratório de Sistemas Espaciais — pesquisa aeroespacial |
-| 📊 | **GovHub-br** | Engenharia de dados para transparência governamental |
-
-<br>
+</div>
 
 ---
 
-### `$ cd projects/ && ls`
+<div align="center"><i>"A long time ago, in a university far, far away..."</i></div>
 
-<details>
-<summary>🚁 <b>edra/</b> — autonomia de VANTs para competições (CBR, SAE BRASIL)</summary>
-<br>
+<br/>
 
-Software de missão para drones autônomos, cobrindo detecção, decisão e execução:
+Tecnóloga em Análise e Desenvolvimento de Sistemas e estudante de **Engenharia de Software**. **Engenheira de dados no Lab Livre** (pipelines para transparência governamental via GovHub-br) e pesquisadora de sistemas aeroespaciais no LaSE-UnB (automação metrológica de bancadas de microempuxo para nanosatélites). Background em controle embarcado de drones na EDRA-UnB (ROS2/PX4, controle de atitude). Quando não estou debugando filtros de Kalman, provavelmente estou escrevendo papers.
 
-- Detecção por visão computacional (**YOLO + OpenCV + PiCamera2**) com suavização temporal e thresholds de confiança em cascata
-- Árvores de comportamento com **py_trees** integradas a **ROS2**
-- Simulação em **PX4 + Gazebo Harmonic**, incluindo scripts de missão e controlador PD para manobras específicas
-- Diagnóstico embarcado: comunicação Raspberry Pi ↔ estação em solo via HTTP
-
-`stack:` ROS2 · PX4 · Gazebo · py_trees · YOLO · OpenCV · Docker
-
-</details>
-
-<details>
-<summary>🛰️ <b>lase-microthrust-balance/</b> — bancada de medição de microempuxo</summary>
-<br>
-
-Arquitetura de software para bancada de testes de microempuxo, usada por pesquisadores
-não necessariamente de software:
-
-- Interface **Streamlit** com 3 módulos: calibração, aquisição e análise
-- Processamento de sinal: **FFT, filtro Butterworth, Kalman + Digital Twin**
-- Restrições reais de laboratório: operação offline, limite de segurança de 1000V, uso em máquina Windows compartilhada
-- Apresentado na **XI ReLaCa ESPACIO** · artigo submetido ao **IAC 2026**
-
-`stack:` Python · Streamlit · NumPy/SciPy
-
-</details>
-
-<details>
-<summary>🌕 <b>exoterra/</b> — visualização 3D de ambientes lunares </summary>
-<br>
-
-Pesquisa em visualização de terrenos lunares a partir de dados reais **LRO/NASA**,
-parceria LaSE × COSMOS:
-
-- Engine: **Godot Engine** com **GDExtension** em **C++**
-- Importação de malhas via **glTF 2.0**
-- Foco em representação fiel de topografia lunar para fins científicos
-
-`stack:` C++ · Godot Engine · GDExtension · glTF 2.0
-
-</details>
-
-<details>
-<summary>📊 <b>govhub-br/</b> — engenharia de dados para dados públicos</summary>
-<br>
-
-DAGs de ingestão de dados governamentais no **Apache Airflow**:
-
-- Ingestão de dados
-- Validação explícita de schema por tabela
-- Debugging de casos reais: BOM em CSVs do governo, `BadZipFile`, schemas divergentes
-
-`stack:` Apache Airflow · PostgreSQL · Python
-
-</details>
-
-<br>
+> 🌟 Apresentado no **IAC 2026** (Space Propulsion Symposium) &nbsp;·&nbsp; Palestrante no XI ReLaCa/AEB
 
 ---
 
-### `$ cat now.md`
+## 🧬 JEDI IDENTIFICATION CARD
 
-```yaml
-estudando:
-  - ICP (Iterative Closest Point) para odometria com LiDAR
-  - Arquitetura de software para sistemas aeroespaciais
-  - Godot Engine + GDExtension para visualização científica
+```
+╔══════════════════════════════════════════════════════════════╗
+║              ≡  REBEL ALLIANCE  ·  JEDI REGISTRY  ≡         ║
+╠══════════════════════════════════════════════════════════════╣
+║  CODENAME  :  luanaa2005                                     ║
+║  CLASS     :  Tecnóloga em ADS  ·  Eng. de Software          ║
+║  RANK      :  Padawan → Knight  (em progresso)               ║
+║  SQUADS    :  LaSE · Lab Livre · EDRA-UnB                    ║
+║  TEMPLE    :  Universidade de Brasília  ·  Brasília, DF      ║
+╠══════════════════════════════════════════════════════════════╣
+║                   ≡  FORCE ATTRIBUTES  ≡                    ║
+╠══════════════════════════════════════════════════════════════╣
+║  Python        ██████████████░░░  88 / 100                  ║
+║  C / C++       ████████████░░░░░  78 / 100                  ║
+║  ROS2 / PX4    ████████████░░░░░  75 / 100                  ║
+║  Signal Proc.  ████████████░░░░░  78 / 100                  ║
+║  Research      █████████████░░░░  82 / 100                  ║
+╠══════════════════════════════════════════════════════════════╣
+║  STATUS:  🟢 ONLINE          MISSION: ACTIVE                 ║
+╚══════════════════════════════════════════════════════════════╝
 ```
 
-<br>
+---
+
+## ⚔️ FORCE ARSENAL
+
+<div align="center">
+
+**— Languages & Frameworks —**
+
+[![Python](https://skillicons.dev/icons?i=python)](https://www.python.org/)&nbsp;[![C](https://skillicons.dev/icons?i=c)](https://en.wikipedia.org/wiki/C_(programming_language))&nbsp;[![Cpp](https://skillicons.dev/icons?i=cpp)](https://isocpp.org/)&nbsp;[![ROS](https://skillicons.dev/icons?i=ros)](https://ros.org/)
+
+**— Ship Systems & Tools —**
+
+[![Linux](https://skillicons.dev/icons?i=linux)](https://www.linux.org/)&nbsp;[![Git](https://skillicons.dev/icons?i=git)](https://git-scm.com/)&nbsp;[![Docker](https://skillicons.dev/icons?i=docker)](https://docker.com/)&nbsp;[![Arduino](https://skillicons.dev/icons?i=arduino)](https://www.arduino.cc/)&nbsp;[![RaspberryPi](https://skillicons.dev/icons?i=raspberrypi)](https://www.raspberrypi.org/)
+
+**— Research & Comms —**
+
+[![LaTeX](https://skillicons.dev/icons?i=latex)](https://www.latex-project.org/)&nbsp;[![Matlab](https://skillicons.dev/icons?i=matlab)](https://www.mathworks.com/)&nbsp;[![VSCode](https://skillicons.dev/icons?i=vscode)](https://code.visualstudio.com/)
+
+</div>
 
 ---
 
-### `$ git log --graph --oneline`
+## 📊 STARSHIP DIAGNOSTICS
 
-<p align="center">
+<div align="center">
+
+<img height="175" src="https://github-readme-stats.vercel.app/api?username=luanaa2005&show_icons=true&theme=dark&title_color=FFD700&icon_color=FFD700&text_color=87CEEB&bg_color=080812&border_color=FFD700&rank_icon=github&count_private=true"/>
+&nbsp;
+<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luanaa2005&layout=compact&theme=dark&title_color=FFD700&text_color=87CEEB&bg_color=080812&border_color=FFD700&langs_count=6"/>
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=luanaa2005&theme=dark&ring=FFD700&fire=FF4500&currStreakLabel=FFD700&sideLabels=87CEEB&background=080812&border=FFD700&dates=87CEEB)](https://git.io/streak-stats)
+
+</div>
+
+<div align="center">
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=luanaa2005&theme=tokyo-night&bg_color=080812&color=FFD700&line=FFD700&point=4FC3F7&area=true&area_color=FFD700&hide_border=false&border_color=FFD700)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
+
+---
+
+## 🚀 WARP TRAIL
+
+<div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luanaa2005/luanaa2005/output/github-contribution-grid-snake-dark.svg"/>
-    <img alt="snake contribution graph" src="https://raw.githubusercontent.com/luanaa2005/luanaa2005/output/github-contribution-grid-snake.svg"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luanaa2005/luanaa2005/output/github-contribution-grid-spaceship-dark.svg"/>
+    <img alt="spaceship contribution graph" src="https://raw.githubusercontent.com/luanaa2005/luanaa2005/output/github-contribution-grid-spaceship.svg"/>
   </picture>
-</p>
-
-
-<br>
+</div>
 
 ---
 
-### `$ contact --reach`
+## 🏅 ORDER MEDALS
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/luana-carvalho-de-almeida-134877234"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
-</p>
+<div align="center">
 
-<p align="center">
-  <sub>"building systems that go beyond the ground"</sub>
-</p>
+[![trophy](https://github-profile-trophy.vercel.app/?username=luanaa2005&theme=darkhub&no-frame=true&row=1&column=6&margin-w=8)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+## 🚀 ACTIVE MISSIONS
+
+<div align="center">
+
+<!-- ⚠️ Confira o nome exato do repo LaSE no seu GitHub -->
+[![govhub](https://github-readme-stats.vercel.app/api/pin/?username=GovHub-br&repo=data-application-mir&theme=dark&title_color=FFD700&icon_color=FFD700&text_color=87CEEB&bg_color=080812&border_color=FFD700)](https://github.com/GovHub-br/data-application-mir)
+[![lase-thrust](https://github-readme-stats.vercel.app/api/pin/?username=luanaa2005&repo=lase-thrust&theme=dark&title_color=FFD700&icon_color=FFD700&text_color=87CEEB&bg_color=080812&border_color=FFD700)](https://github.com/luanaa2005/lase-thrust)
+
+</div>
+
+---
+
+## 📡 MISSION BRIEFING
+
+<details>
+<summary>⚠️ CLASSIFIED — Clique para descriptografar</summary>
+<br/>
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║           TRANSMISSION: ACTIVE OPERATIONS LOG                ║
+╠══════════════════════════════════════════════════════════════╣
+║  [▶] LaSE-UnB   — Automação metrológica de bancada de        ║
+║                   microempuxo para nanosatélites             ║
+║                   IAC 2026 aceito · XI ReLaCa palestrante    ║
+║                                                              ║
+║  [▶] Lab Livre  — Engenheira de dados: DAGs Airflow + Docker ║
+║                   Pipelines p/ transparência governamental   ║
+║                   GovHub-br × Min. Igualdade Racial          ║
+║                                                              ║
+║  [▶] EDRA-UnB   — Controle embarcado de drone autônomo       ║
+║                   PID/attitude, ROS2 + PX4 + Pixhawk        ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+</details>
+
+---
+
+## 🌠 OPEN COMMS
+
+<div align="center">
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luli20052003@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/luana-carvalho-de-almeida-134877234)
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23FFD700.svg?style=for-the-badge&logo=firefox&logoColor=black)](https://luanaa2005.github.io)
+
+</div>
+
+---
+
+<div align="center">
+
+*"Do. Or do not. There is no try."* — Mestre Yoda
+
+*...mas talvez um `git stash` primeiro* 🌙
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a2060,50:0d1540,100:080812&height=120&section=footer"/>
+
+</div>
